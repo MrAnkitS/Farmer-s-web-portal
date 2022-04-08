@@ -7,7 +7,7 @@ same website each having a specific function with the intention of aiding the us
 different aspects of farming.
 
 Services provided in the website:
-## 1. News
-## 2. Weather Forecast
-## 3. Peer-to-Peer Shopping Portal
-## 4. Crop Calendar
+#### 1. News
+#### 2. Weather Forecast
+#### 3. Peer-to-Peer Shopping Portal
+#### 4. Crop Calendar
