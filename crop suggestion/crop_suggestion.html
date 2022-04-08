@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Crop Suggestion</title>
+  <!-- Custom Style   -->
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+
+<style>
+
+body {
+  background-image: url('crop_suggestion.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+input[type=text], select {
+  
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+h3{
+  font-weight: bolder;
+  font-size: 30px;
+}
+</style>
+<body>
+
+
+<!-- ----------------------------  Navigation ---------------------------------------------- -->
+  <!--
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="../index.html" class="text-gray">Farmer's Web Portal</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="weather_forecast.html">Weather Forecast</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="../crop suggestion/crop_suggestion.html">Crop Suggestion</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="../shopping_portal.html">Shopping Portal</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+  -->
+  
+<br><br><br><br>
+<div style="background: rgba(76, 175, 80, 0.1);color: purple">
+
+  <center><h3 style="font-family: Arial;color:black">Crop Suggesetion</h3></center>
+
+  <form action="/action_page.php">
+    <label for="name">Nitrogen(N)</label>
+    <input type="number" id="N" name="Nitrogen(N)" placeholder="Ratio of Nitrogen content in soil">
+
+    
+    <label for="price">Phosphorus(P)</label>
+    <input type="number" id="P" name="Phosphorus(P)" placeholder="Ratio of Phosphorous content in soil">
+
+    <label for="number">Potassium(K)</label>
+    <input type="number" id="K" name="Potassium(K)" placeholder="Ratio of Potassium content in soil">
+
+    <label for="product">Humidity(in %)</label>
+    <input type="number" id="humidity" name="Humidity(in %)" placeholder="Relative humidity in %">
+
+
+    <label for="description">pH</label>
+    <input type="number" id="pH" name="pH" placeholder="pH value of the soil">
+
+    <label for="description">Rainfall(in mm)</label>
+    <input type="number" id="rainfall" name="Rainfall(in mm)" placeholder="Rainfall in mm">
+
+
+
+
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
